@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Preview Before Upload</title>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <div class="container">
+        <figure class="image-container">
+            <img id="chosen-image">
+            <figcaption id="file-name"></figcaption>
+        </figure>
+
+        <input type="file" id="upload-button" accept="image/*">
+        <label for="upload-button">
+            <i class="fas fa-upload"></i> &nbsp; Choose A Photo.
+            <button oneclick="gotolink(this)" value="page"></button> 
+        </label>
+        <br>
+        <a href="page5.html">
+        <p class="Next">Next</p>
+        </a>
+    </br>
+    </div>
+    <!--Script-->
+    <script src="page2.js"></script>
+    
+</body>
+</html>
